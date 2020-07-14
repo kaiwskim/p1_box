@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:padding="25dp"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/AddNewContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:gravity="center"
+        android:text="Send your Morse Code"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/KeepInTouch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share your secret with morse code"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="10dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:layout_below="@+id/AddNewContact"
+        />
+
+
+
+    <EditText
+        android:id="@+id/EditContact"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:hint="   Phone Number"
+        android:textSize="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/shape_edit_text"
+        android:padding="10dp"
+        android:layout_below="@+id/KeepInTouch"
+        />
+
+    <Button
+        android:id="@+id/btn_sendmorsecode"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/KeepInTouch"
+        android:background="@drawable/ic_send_white"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:layout_marginTop="175dp"
+        />
+
+</RelativeLayout>

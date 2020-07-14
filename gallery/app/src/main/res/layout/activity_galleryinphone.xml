@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GalleryInPhone">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/home_toolbar"
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:background="@android:color/white"
+            >
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/logo_cube"
+                android:layout_marginLeft="12.5dp"
+                android:layout_marginTop="12.5dp"
+                />
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <Button
+        android:id="@+id/gallery_upload"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="326dp"
+        android:layout_marginBottom="552.5dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/ic_upload" />
+
+<!--        <Button-->
+<!--            android:id="@+id/open_Gallery"-->
+<!--            android:layout_width="20dp"-->
+<!--            android:layout_height="20dp"-->
+<!--            android:background="@drawable/ic_gallery"-->
+<!--            android:layout_marginTop="475dp"-->
+<!--            android:layout_marginLeft="105dp"-->
+<!--            />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/use_camera"-->
+<!--            android:layout_width="22dp"-->
+<!--            android:layout_height="20dp"-->
+<!--            android:background="@drawable/ic_camera"-->
+<!--            android:layout_marginTop="475dp"-->
+<!--            android:layout_marginLeft="69dp"-->
+<!--        />-->
+
+    <ImageView
+        android:id="@+id/image_preview"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shape_big_photo"
+        android:layout_marginBottom="245dp"
+        />
+
+    <Button
+        android:id="@+id/ask_add"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/black"
+        android:text="Add Photo"
+        android:textSize="15dp"
+        android:textColor="#FFFFFF"
+        />
+
+
+<!--    <ProgressBar-->
+<!--        android:id="@+id/progress_bar"-->
+<!--        style="@style/Widget.AppCompat.ProgressBar.Horizontal"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:ignore="MissingConstraints"-->
+<!--        tools:layout_editor_absoluteX="-48dp"-->
+<!--        tools:layout_editor_absoluteY="430dp" />-->
+
+
+</RelativeLayout>

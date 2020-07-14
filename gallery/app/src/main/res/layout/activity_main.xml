@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment">
+
+    <Button
+        android:id="@+id/add_photo"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/ic_add"
+        android:layout_marginBottom="507.5dp"
+        android:layout_marginLeft="291dp"
+        android:layout_alignParentBottom="true"
+        />
+
+    <Button
+        android:id="@+id/delete_photo"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/ic_delete"
+        android:layout_marginBottom="507.5dp"
+        android:layout_marginLeft="326dp"
+        android:layout_alignParentBottom="true"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvListImg"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="150dp"
+        android:layout_marginLeft="56.5dp"
+        />
+
+<!--    tools:layout_editor_absoluteX = "8dp"-->
+<!--    android:padding="5dp"-->
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@drawable/shape_big_photo"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="200dp"
+         />
+
+    <!--    <ListView-->
+    <!--        android:id="@+id/list_photo"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="1.0"-->
+    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--        app:layout_constraintRight_toRightOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="0.197" />-->
+
+    <!--            </LinearLayout>-->
+    <!--    </HorizontalScrollView>-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/image_view"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="350dp"-->
+    <!--        android:src="@drawable/ic_launcher_background"-->
+    <!--        android:padding="5dp"-->
+    <!--        android:layout_marginStart="29dp"-->
+    <!--        android:layout_marginEnd="29dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"></ImageView>-->
+
+
+
+</RelativeLayout>

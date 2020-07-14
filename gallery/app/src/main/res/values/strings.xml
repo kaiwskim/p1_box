@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Box</string>
+    <string name="find_in_gallery">Find in Gallery</string>
+    <string name="use_camera">Use Camera</string>
+    <string name="find_in_files">Find in Files</string>
+    <string name="upload_photo">Upload Photo</string>
+    <string name="upload_success">UPLOAD SUCCESS!</string>
+    <string name="Add">Add</string>
+    <string name="rotate_image">Rotate Image</string>
+    <string name="first_fragment">First Fragment</string>
+    <string name="second_fragment">Second Fragment</string>
+    <string name="third_fragment">Third Fragment</string>
+</resources>

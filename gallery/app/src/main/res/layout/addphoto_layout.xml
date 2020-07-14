@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/btn_camera"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="21.25dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/shape_more_box"
+        >
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="17.5dp"
+            android:src="@drawable/ic_camera"
+            >
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Camera"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="15dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="21.25dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/shape_more_box"
+        >
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="17.5dp"
+            android:src="@drawable/ic_gallery"
+            >
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gallery"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="15dp"
+            />
+    </LinearLayout>
+</LinearLayout>

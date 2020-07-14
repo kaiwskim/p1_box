@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="35dp"
+    android:layout_height="35dp"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvImgName"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:layout_margin="5dp"-->
+<!--        android:text="image_name"-->
+<!--        android:textColor="@color/colorPrimary"/>-->
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        tools:ignore="InvalidId"
+        />
+
+</LinearLayout>
